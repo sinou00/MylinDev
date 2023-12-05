@@ -29,6 +29,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Screen shots of the web page 
 
 ![Local Image](/HOME.png)
-![Local Image](/tableau.png)
-![Local Image](/outils.png)
+![Local Image](/table.png)
+![Local Image](/outil.png)
 
