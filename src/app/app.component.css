@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  font-family: "Poppins";
+}
+
+  
+.tool-button {
+    font-size:14px;
+    font-weight: bold;
+    font-family:"Poppins" ;
+    background-color: rgb(32,100,131); 
+    color: #fffefe; 
+    border: none;
+    border-radius: 20px;
+    height: fit-content;
+    cursor: pointer;
+    position: relative;
+    left: 1120px;
+    align-items: center;
+
+  }
+  .tool-button1 {
+    font-size:14px;
+    font-weight: bold;
+    font-family:"Poppins" ;
+    background-color: rgb(32,100,131); /* Your desired background color */
+    color: #fffefe; /* Your desired text color */
+    border: none;
+    border-radius: 20px;
+    height: fit-content;
+    cursor: pointer;
+    position: relative;
+    left: 1098px;
+   
+  }
+  
+  .tool-button:hover {
+    background-color: rgba(116, 198, 196, 1); 
+  }
+
+  .tool-button1:hover {
+    background-color: rgba(116, 198, 196, 1); 
+  }
+
+  .desktop1-image1 {
+    top: -2px;
+    left: -4px;
+    width: 63px;
+    height: 36px;
+    position: absolute;
+  }
+

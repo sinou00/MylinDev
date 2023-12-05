@@ -1,0 +1,89 @@
+/* Google Fonts - Poppins */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  font-family: "Poppins";
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  background-color: rgba(116, 198, 196, 0.10000000149011612);
+  transition: filter 0.3s; /* Add transition for smooth effect */
+  z-index: 0;
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 40px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: rgb(32,100,131);
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid rgb(32,100,131);
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+.multiline {
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.tool-button {
+  font-size:12px;
+  font-family:"Poppins" ;
+  background-color: rgba(116, 198, 196, 1); 
+  color: #fffefe; 
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 21px;
+  
+}
+
+.tool-button:hover {
+  background-color: rgb(32,100,131); /* Change color on hover if desired */
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  .content-table {
+    margin: 25px 2%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .content-table {
+    font-size: 0.8em;
+  }
+}

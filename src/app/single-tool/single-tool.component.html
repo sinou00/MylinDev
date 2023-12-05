@@ -1,0 +1,43 @@
+<table class="content-table">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Nom</th>
+        <th>Visites</th>
+        <th>Enregistrement</th>
+        <th>Partages</th>
+        <th>Suivis</th>
+        <th>Crédibilités</th>
+        <th>Efficacité</th>
+        <th>Note</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let tool of sharedToolService.hasTools">
+        <td class="multiline">{{ tool.id }}</td>
+        <td style="word-break: break-word;">{{ tool.nom }}</td>
+        <td>{{ tool.visites }}</td>
+        <td>{{ tool.enregistrements }}</td>
+        <td>{{ tool.partages }}</td>
+        <td>{{ tool.suivis }}</td> 
+        <td>{{ tool.credibilite}}</td>
+        <td>{{ tool.efficacite}}</td>
+        <td>{{ tool.note}}</td>
+
+        <td>
+          <button type="button" (click)="singleTool(tool.id)" class="tool-button" >Détails</button>
+        </td>
+
+      
+
+      </tr>
+    </tbody>
+</table> 
+
+<router-outlet></router-outlet>
+
+
+
+
+
+
